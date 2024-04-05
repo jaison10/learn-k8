@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: pod-info-deployment
-  namespace: development
+  namespace: development #uses the development namespace which should already be present
   labels:
     app: pod-info
 spec:
